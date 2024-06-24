@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch: 
+
 
 jobs: 
   buildjob1:
@@ -17,3 +19,4 @@ jobs:
     steps:
     - name: buildstep2
       uses: actions/checkout@v4
+

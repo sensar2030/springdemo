@@ -20,3 +20,8 @@ jobs:
     - name: buildstep2
       uses: actions/checkout@v4
 
+  buildjob3:
+    runs-on: windows-latest
+    steps: 
+    - name: buildstep3
+      run: echo hello!!
